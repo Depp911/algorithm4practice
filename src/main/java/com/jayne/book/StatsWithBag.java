@@ -13,7 +13,7 @@ public class StatsWithBag {
     public static void main(String[] args) {
         Bag<Double> doubleBag = new Bag<>();
         while (!StdIn.isEmpty()){
-            doubleBag.add(StdIn.readDouble());
+            doubleBag.push(StdIn.readDouble());
         }
         int N = doubleBag.size();
         if(N <= 1){
